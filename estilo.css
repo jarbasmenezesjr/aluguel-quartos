@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: rgb(16, 16, 63);
   text-align: center;
   margin-top: 80px;  
 }
@@ -18,6 +18,7 @@ h2 {
 h3 {
   color: black;
   text-align: center;
+  margin: 30px;
 }
 
 p {
@@ -33,132 +34,52 @@ img {
 	align-items: center;
 }
 
-video {
-	max-height: 240px;
-	max-width: 100%;
-    display: block;
-    margin: 0 auto;
-	align-items: center;
-	border-style: none;
-}
-
-audio {
-	max-height: 300px;
-	max-width: 100%;
-    display: block;
-    margin: 0 auto;
-	align-items: center;
-	border-style: none;
-}
-
-#youtube {
-	height: 100%;
-	width: 100%;
-	max-height: 240px;
-	max-width: 100%;
-    display: block;
-    margin: 0 auto;
-	align-items: center;
-	border-style: none;
-}
-
 small {
 	margin: 10px;
 }
 
 .container {
-  display: grid;  
+  display: flex;  
   align-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
+  justify-content: center;
   margin-top: 40px;  
   padding: 20px;  
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
-}
-
-.item {
-	display: grid;
-	align-items: center;
-	margin: 5px;	
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-}
-
-.navbar { 
-	position: fixed;
-	top: 0;
-    width: 100%;	
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-right: 1px solid #bbb;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-textarea {	
-	rows: 6;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .rodape {
 	text-align: center;
 }
 
-.contato {
-  display: grid;    
-  grid-template-columns: 200px;
-  grid-template-rows: 80px 80px 80px 60px;
-  margin-top: 40px;  
-  padding: 20px;  
-  margin-top: 40px;  
-  padding: 20px;  
-  justify-content: space-evenly;
-  align-items: justify;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
+.card {
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(187, 180, 180);
+  min-width: 360px;  
 }
 
-#linkedin {
-	height: 120px;
-	width: 120px;	
-    display: block;
-	align-items: left;
+.card-body {
+  text-align: center;
+  background-color: rgb(187, 180, 180);
 }
 
-.sobre {
-  display: block;    
-  margin-top: 40px;  
-  padding: 20px;  
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
+.card-title {
+  font-size: 30px;
+  text-align: center;
 }
 
-.tituloreferencias {
-	text-align: left;
+.card-text {
+  text-align: center;
 }
 
-.referencias {
-  display: grid;
-  margin-top: 40px;  
-  padding: 20px;  
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
-  align-items: left;
+.card-price {
+  font-size: 26px;
+  text-align: center;  
+}
+
+.card-deck {
+  display: flex; 
+  justify-content: center;
 }
 
 
