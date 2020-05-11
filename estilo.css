@@ -39,7 +39,7 @@ small {
 }
 
 .container {
-  display: flex;  
+  display: flexbox;  
   align-content: space-between;
   justify-content: center;
   margin-top: 40px;  
@@ -78,7 +78,7 @@ small {
 }
 
 .card-deck {
-  display: flex; 
+  display: flexbox; 
   justify-content: center;
 }
 
